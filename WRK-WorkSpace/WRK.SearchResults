@@ -1,0 +1,4 @@
+---- KiServiceTable 匹配 (3 在 3 文件 ) ----
+Initkr.c (d:\工作\wrk\代码\cdcfkw\windowsresearchkernel-wrk\wrk-v1.2\base\ntos\ke\amd64):        KeCompactServiceTable(&KiServiceTable[0], KiServiceLimit, FALSE);
+Ki.h (d:\工作\wrk\代码\cdcfkw\windowsresearchkernel-wrk\wrk-v1.2\base\ntos\ke):extern ULONG_PTR KiServiceTable[];
+Kiinit.c (d:\工作\wrk\代码\cdcfkw\windowsresearchkernel-wrk\wrk-v1.2\base\ntos\ke):    KeServiceDescriptorTable[0].Base = &KiServiceTable[0];
